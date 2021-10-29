@@ -1,24 +1,73 @@
+@import url ('https://fonts.googleapis.com/css2? family = Pattaya & display = swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+
 .div1 {
-    background-image: linear-gradient(to left, #5BF03D, #5EF0BB);
+    background-image: linear-gradient(to right, #5BF03D, #5EF0BB);
     padding: 10px;
+   
 }
 
 #titulo2{
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #titulo1, #titulo2{
-    font-family: sans-serif;
+    font-family: 'Pattaya', sans-serif;
     color: #380B61;
-    margin-left: 7%;
 } 
+.div2, .div3, .div4, .div5{
+    padding: 10px;
+    font-size: 22px;
+    color: #380B61;
+    background: aquamarine;
+    width: 400px;
+}
 
+.div2{
+    padding-top: 20px;
+}
 
+#nome{
+    border-radius: 5px;
+    height: 35px;
+    
+}
 
+#peso{
+    border-radius: 5px;
+    width: 50px;
+    height: 35px;
+}
 
+#altura{
+    border-radius: 5px;
+    width: 50px;
+    height: 35px;
+    
+}
+
+.div1{
+    padding: 10px;
+    font-size: 22px;
+    color: #380B61;
+    text-align: center;   
+}
 
